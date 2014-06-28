@@ -90,26 +90,26 @@ a {
     header {
         text-align: center;
         font-family: gotham_book, Arial, sans-serif;
-        background: url(/images/texture/bdy_color.jpg);
+        background: url(/images/texture/bdy.png);
         color:white;
         
         #title {
             padding:0.2em 0;
         }
         h1 {
-            font-size: 3em;
+            font-size: 10vw;
             //white-space: nowrap;
             //overflow: hidden;
             span, span + span + span {
-                color:white;
+                color:$thirdColor;
             }
             span + span {
-                color:$thirdColor;
+                color:$firstColor;
             }
         }
         h2 {
-            color:$secondColor;
-            font-size:1.7em;
+            color:$thirdColor;
+            font-size:5.5vw;
             font-family:gotham_thin, Arial, sans-serif;
         }
         #mobileMenu {

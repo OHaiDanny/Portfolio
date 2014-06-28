@@ -60,19 +60,19 @@ a {
   header {
     text-align: center;
     font-family: gotham_book, Arial, sans-serif;
-    background: url(/images/texture/bdy_color.jpg);
+    background: url(/images/texture/bdy.png);
     color: white; }
     header #title {
       padding: 0.2em 0; }
     header h1 {
-      font-size: 3em; }
+      font-size: 10vw; }
       header h1 span, header h1 span + span + span {
-        color: white; }
-      header h1 span + span {
         color: #5f856a; }
+      header h1 span + span {
+        color: #9aac60; }
     header h2 {
-      color: #e9e5e0;
-      font-size: 1.7em;
+      color: #5f856a;
+      font-size: 5.5vw;
       font-family: gotham_thin, Arial, sans-serif; }
     header #mobileMenu {
       display: block;
