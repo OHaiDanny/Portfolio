@@ -174,17 +174,22 @@ a {
         padding: 0 1em; }
         #middle #bio article h2 {
           font-size: 2em;
-          padding-bottom: 0.2em;
+          line-height: 10%;
           font-family: gotham_book, Arial, sans-serif; }
         #middle #bio article p, #middle #bio article aside, #middle #bio article h2 {
           padding-top: 1em;
           line-height: 2em; }
         #middle #bio article h2 {
           text-transform: uppercase; }
+        #middle #bio article aside {
+          text-align: center; }
+          #middle #bio article aside .fa {
+            font-size: 3em; }
     #middle #softSkills, #middle #hardSkills, #middle #achievement {
       color: #5f856a;
       padding: 0.5em 1em; }
       #middle #softSkills h2, #middle #hardSkills h2, #middle #achievement h2 {
+        text-align: center;
         font-size: 2em;
         text-transform: uppercase;
         font-family: gotham_book, Arial, sans-serif; }
