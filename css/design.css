@@ -468,7 +468,7 @@ a {
       color: white;
       font-family: gotham_book, Arial, sans-serif;
       font-size: 3em;
-      background-color: rgba(95, 133, 106, 0.9); }
+      background-color: rgba(95, 133, 106, 0.93); }
       #middle h3 span {
         vertical-align: middle;
         line-height: normal; }
@@ -494,12 +494,11 @@ a {
         background: none; }
         #middle #bio article h2, #middle #bioPreview article h2 {
           font-size: 2em;
-          padding-bottom: 0.2em; }
+          padding-bottom: 0.2em;
+          text-transform: uppercase; }
         #middle #bio article p, #middle #bio article aside, #middle #bioPreview article p, #middle #bioPreview article aside {
           padding-top: 1em;
           line-height: 1.5em; }
-        #middle #bio article h2, #middle #bioPreview article h2 {
-          text-transform: uppercase; }
       #middle #bio .fa, #middle #bioPreview .fa {
         padding-right: 0.5em; }
       #middle #bio aside .fa, #middle #bioPreview aside .fa {
@@ -513,10 +512,13 @@ a {
       line-height: 2.5em;
       left: 0; }
       #middle #bioPreview article h2 {
-        font-size: 5.5vw;
+        font-size: 2.2vw;
         padding: 0.5em 0;
         text-align: center;
         font-family: gotham_thin; }
+      #middle #bioPreview article span {
+        font-family: gotham_book;
+        color: #9aac60; }
     #middle #hardSkills, #middle #achievement {
       color: #5f856a;
       padding: 0.5em 1em; }
@@ -562,14 +564,16 @@ a {
         text-transform: uppercase;
         font-size: 1em;
         padding-top: 0.7em; }
-    #middle #softSkills ul {
-      padding-top: 0.5em; }
-      #middle #softSkills ul li {
-        display: inline-block;
-        padding: 0.2em 0;
-        width: 49%; }
-        #middle #softSkills ul li .fa {
-          padding: none; }
+    #middle #softSkills {
+      padding-top: 1em; }
+      #middle #softSkills ul {
+        padding-top: 0.5em; }
+        #middle #softSkills ul li {
+          display: inline-block;
+          padding: 0.2em 0;
+          width: 49%; }
+          #middle #softSkills ul li .fa {
+            padding: none; }
     #middle #project {
       color: #5f856a; }
       #middle #project h2 {
@@ -738,8 +742,6 @@ a {
     float: none;
     display: block;
     text-align: center; }
-    #middle #bioPreview article h2 {
-      font-size: 4.2vw; }
   #middle #hardSkills, #middle #achievement {
     color: #5f856a;
     padding: 0.5em 1em;
@@ -792,6 +794,8 @@ a {
     #middle #project #projectInfoContainer {
       width: 88%;
       margin: 0 auto; }
+    #middle #project article:first-of-type {
+      padding: 3em 0; }
     #middle #project article {
       background: inherit;
       display: block;
